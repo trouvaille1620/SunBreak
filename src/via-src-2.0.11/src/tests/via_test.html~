@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Tests for VIA2</title>
+  </head>
+
+  <body>
+
+    <script src="_via_test_coco.js"></script>
+    <script src="_via_test.js"></script>
+  </body>
+</html>

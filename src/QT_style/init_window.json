@@ -1,0 +1,42 @@
+{
+  "Left_ListWidget_Style":{
+      "TranslucentBackground": "True",
+      "QStackedWidget": {
+        "min-width":"150px", "max-width":"150px",
+        "min-height":"768px", "max-height":"768px",
+        "background": "#FFFFF5",
+        "border-top-left-radius": "20px",
+        "border-top-right-radius": "20px",
+        "border-bottom-left-radius": "20px",
+        "border-bottom-right-radius": "20px"
+      },
+      "QListWidget::Item:!selected": {
+          "background":"#5170b6",
+          "color":"#FFFFFF",
+          "font-weight":"600"
+     },
+      "QListWidget::Item:selected":{
+          "background":"#4abf88",
+          "color":"#FFFFFF",
+          "font-weight":"600"
+     },
+      "QListWidget::Item:hover":{
+          "background":"#6a90e8",
+          "color":"#FFFFFF",
+          "font-weight":"600"
+     }
+    },
+
+  "Right_StackWidget_Style":{
+      "TranslucentBackground": "False",
+      "QStackedWidget": {
+        "min-width":"973px", "max-width":"973px",
+        "min-height":"768px", "max-height":"768px",
+        "background": "./images/init_background1.png",
+        "border-top-left-radius": "0px",
+        "border-top-right-radius": "0px",
+        "border-bottom-left-radius": "0px",
+        "border-bottom-right-radius": "0px"
+      }
+  }
+}

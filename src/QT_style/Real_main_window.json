@@ -1,0 +1,246 @@
+{
+  "Init_window_StackWidget_Style":{
+      "TranslucentBackground": "False",
+      "QStackedWidget": {
+        "min-width":"1080px", "max-width":"1080px",
+        "min-height":"790px", "max-height":"790px",
+        "background": "#F5F5F5",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      }
+    },
+
+  "Exit_Button_Style":{
+      "x": "1258",
+      "y": "475",
+      "width": "32",
+      "height": "32",
+      "QPushButton": {
+        "background-image": "./images/exit_window.png",
+        "background_position": "center",
+        "background_repeat": "no_repeat",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "background-color": "#41545e"
+      },
+      "QPushButton_pressed": {
+        "background-color": "#41545e"
+      }
+    },
+
+  "Mini_Button_Style":{
+      "x": "1258",
+      "y": "425",
+      "width": "32",
+      "height": "32",
+      "QPushButton": {
+        "background-image": "./images/mini_window.png",
+        "background_position": "center",
+        "background_repeat": "no_repeat",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "background-color": "#41545e"
+      },
+      "QPushButton_pressed": {
+        "background-color": "#41545e"
+      }
+    },
+
+  "Refresh_Button_Style":{
+      "x": "1258",
+      "y": "375",
+      "width": "32",
+      "height": "32",
+      "QPushButton": {
+        "background-image": "./images/regresh1.png",
+        "background_position": "center",
+        "background_repeat": "no_repeat",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "background-color": "#41545e"
+      },
+      "QPushButton_pressed": {
+        "background-color": "#41545e"
+      }
+    },
+
+  "Homepage_Button_Style":{
+      "x": "1258",
+      "y": "320",
+      "width": "32",
+      "height": "32",
+      "QPushButton": {
+        "background-image": "./images/shouye2.png",
+        "background_position": "center",
+        "background_repeat": "no_repeat",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "background-color": "#41545e"
+      },
+      "QPushButton_pressed": {
+        "background-color": "#41545e"
+      }
+    },
+
+  "Shaitu_Still_Button_Style":{
+      "x": "30",
+      "y": "270",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "border-image": "./images/shaitu.png",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "border-image": "./images/shaitu_press3.png"
+      },
+      "QToolButton_checked": {
+        "border-image": "./images/shaitu_press3.png"
+      }
+    },
+
+  "Biaotu_Still_Button_Style":{
+      "x": "30",
+      "y": "320",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "border-image": "./images/biaotu.png",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "border-image": "./images/biaotu_press3.png"
+      },
+      "QToolButton_checked": {
+        "border-image": "./images/biaotu_press3.png"
+      }
+    },
+
+  "Biaozhutongji_Still_Button_Style":{
+      "x": "30",
+      "y": "370",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "border-image": "./images/biaozhutongji.png",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "border-image": "./images/biaozhutongji_press3.png"
+      },
+      "QToolButton_checked": {
+        "border-image": "./images/biaozhutongji_press3.png"
+      }
+    },
+
+  "Dianjian_Still_Button_Style":{
+      "x": "30",
+      "y": "420",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "border-image": "./images/dianjian.png",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "border-image": "./images/dianjian_press3.png"
+      },
+      "QToolButton_checked": {
+        "border-image": "./images/dianjian_press3.png"
+      }
+    },
+
+  "Biaozhun_Still_Button_Style":{
+      "x": "30",
+      "y": "470",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "border-image": "./images/biaozhun.png",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "border-image": "./images/biaozhun_press3.png"
+      },
+      "QToolButton_checked": {
+        "border-image": "./images/biaozhun_press3.png"
+      }
+    },
+
+  "Database_Button_Style":{
+      "x": "30",
+      "y": "520",
+      "width": "150",
+      "height": "40",
+      "QPushButton": {
+        "background-image": "./images/DB1.png",
+        "background_position": "center",
+        "background_repeat": "no_repeat",
+        "border-top-left-radius": "10px",
+        "border-top-right-radius": "10px",
+        "border-bottom-left-radius": "10px",
+        "border-bottom-right-radius": "10px"
+      },
+      "QPushButton_hover": {
+        "background-image": "./images/DB_press1.png"
+      },
+      "QPushButton_pressed": {
+        "background-image": "./images/DB_press1.png"
+      }
+    },
+
+  "VIA_Button_Style": {
+    "x": "30",
+    "y": "220",
+    "width": "150",
+    "height": "40",
+    "QPushButton": {
+      "background-image": "./images/via1.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/via_press2.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/via_press2.png"
+    }
+  }
+}

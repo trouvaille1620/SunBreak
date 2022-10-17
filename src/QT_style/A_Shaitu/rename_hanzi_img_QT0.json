@@ -1,0 +1,180 @@
+{
+  "Base_Normal_Widget_Style": {
+    "TranslucentBackground": "False",
+    "QWidget": {
+      "background": "#F5F5F5",
+      "border-top-left-radius": "7px",
+      "border-top-right-radius": "7px",
+      "border-bottom-left-radius": "7px",
+      "border-bottom-right-radius": "7px"
+    }
+  },
+
+  "Title_label_Style": {
+    "x": "210",
+    "y": "22",
+    "content": "---含中文图片重命名---",
+    "content_format": "Microsoft YaHei",
+    "content_size": "12",
+    "content_color": "#FFFFFF"
+  },
+
+  "Tips_label_Style": {
+    "x": "640",
+    "y": "115",
+    "content": "\n  1.图片名中含中文部分替换为对\n 应中文首字母缩写，可选择是否\n 前缀文件夹名以及是否同步替换\n via_project.json中图片名；\n  2.支持多级文件夹输入，直接对\n 原图片进行操作，若有需要请提\n 前备份",
+    "content_format": "Microsoft YaHei",
+    "content_size": "9",
+    "content_color": "#000000"
+  },
+
+  "Input_label_Style": {
+    "x": "70",
+    "y": "120",
+    "content": "输入文件夹路径",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Input_path_LineEdit_Style": {
+    "x": "70",
+    "y": "145",
+    "width": "400",
+    "height": "30",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QLineEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "0px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "0px"
+    }
+  },
+
+  "Input_dir_Button_Style": {
+    "x": "470",
+    "y": "145",
+    "width": "40",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "6px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_press.png"
+    }
+  },
+
+  "Output_label_Style": {
+    "x": "70",
+    "y": "190",
+    "content": "输出文件夹路径",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Output_path_LineEdit_Style": {
+    "x": "70",
+    "y": "215",
+    "width": "400",
+    "height": "30",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QLineEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "0px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "0px"
+    }
+  },
+
+  "Output_dir_Button_Style": {
+    "x": "470",
+    "y": "215",
+    "width": "40",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "6px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_press.png"
+    }
+  },
+
+  "Option_label_Style": {
+    "x": "70",
+    "y": "190",
+    "content": "是否前缀文件夹名",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Option2_label_Style": {
+    "x": "70",
+    "y": "250",
+    "content": "是否同步更改via_project.json",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Start_Button_Style": {
+    "x": "70",
+    "y": "350",
+    "width": "50",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button_start.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_start_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_start_press.png"
+    }
+  },
+
+  "Run_Log_Style": {
+    "x": "630",
+    "y": "370",
+    "width": "250",
+    "height": "350",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QTextBrowser": {
+      "background-color": "transparent",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    }
+  }
+}

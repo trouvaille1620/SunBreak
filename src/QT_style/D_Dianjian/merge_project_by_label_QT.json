@@ -1,0 +1,162 @@
+{
+  "Base_Normal_Widget_Style": {
+    "TranslucentBackground": "True",
+    "QWidget": {
+      "background": "#F5F5F5",
+      "border-top-left-radius": "7px",
+      "border-top-right-radius": "7px",
+      "border-bottom-left-radius": "7px",
+      "border-bottom-right-radius": "7px"
+    }
+  },
+
+  "Title_label_Style": {
+    "x": "150",
+    "y": "22",
+    "content": "---添加类别标注至project.json---",
+    "content_format": "Microsoft YaHei",
+    "content_size": "12",
+    "content_color": "#FFFFFF"
+  },
+
+  "Tips_label_Style": {
+    "x": "640",
+    "y": "115",
+    "content": "\n  1.输入路径需指定至文件；\n  2.添加via_类别名_project.json\n 中的标注信息至via_model_pro\n  ject.json",
+    "content_format": "Microsoft YaHei",
+    "content_size": "9",
+    "content_color": "#000000"
+  },
+
+  "Input_label_Style": {
+    "x": "70",
+    "y": "120",
+    "content": "via_model_project.json文件夹路径",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Input_path_LineEdit_Style": {
+    "x": "70",
+    "y": "145",
+    "width": "400",
+    "height": "30",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QLineEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "0px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "0px"
+    }
+  },
+
+  "Input_dir_Button_Style": {
+    "x": "470",
+    "y": "145",
+    "width": "40",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "6px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_press.png"
+    }
+  },
+
+  "Output_label_Style": {
+    "x": "70",
+    "y": "190",
+    "content": "via_类别_project.json文件夹路径",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Output_path_LineEdit_Style": {
+    "x": "70",
+    "y": "215",
+    "width": "400",
+    "height": "30",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QLineEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "0px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "0px"
+    }
+  },
+
+  "Output_dir_Button_Style": {
+    "x": "470",
+    "y": "215",
+    "width": "40",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "6px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_press.png"
+    }
+  },
+
+  "Start_Button_Style": {
+    "x": "70",
+    "y": "270",
+    "width": "50",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button_start.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_start_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_start_press.png"
+    }
+  },
+
+  "Run_Log_Style": {
+    "x": "630",
+    "y": "370",
+    "width": "250",
+    "height": "350",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QTextBrowser": {
+      "background-color": "transparent",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    }
+  }
+}

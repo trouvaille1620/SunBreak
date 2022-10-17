@@ -1,0 +1,140 @@
+{
+  "Base_Normal_Widget_Style": {
+    "TranslucentBackground": "True",
+    "QWidget": {
+      "background": "#F5F5F5",
+      "border-top-left-radius": "7px",
+      "border-top-right-radius": "7px",
+      "border-bottom-left-radius": "7px",
+      "border-bottom-right-radius": "7px"
+    }
+  },
+
+  "Title_label_Style": {
+    "x": "150",
+    "y": "22",
+    "content": "---yolo检出txt转via_project.json---",
+    "content_format": "Microsoft YaHei",
+    "content_size": "12",
+    "content_color": "#FFFFFF"
+  },
+
+  "Tips_label_Style": {
+    "x": "640",
+    "y": "115",
+    "content": "\n  1.保证图片与txt共同存在于输入\n 路径下，via_project.json保存在\n 输入路径下；\n  2.不支持多级文件夹输入；\n  3.请在模板上改动以建立类别字\n 典",
+    "content_format": "Microsoft YaHei",
+    "content_size": "9",
+    "content_color": "#000000"
+  },
+
+  "Input_label_Style": {
+    "x": "70",
+    "y": "120",
+    "content": "输入文件夹路径",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Input_path_LineEdit_Style": {
+    "x": "70",
+    "y": "145",
+    "width": "400",
+    "height": "30",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QLineEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "0px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "0px"
+    }
+  },
+
+  "Input_dir_Button_Style": {
+    "x": "470",
+    "y": "145",
+    "width": "40",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "0px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "0px",
+      "border-bottom-right-radius": "6px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_press.png"
+    }
+  },
+
+  "Category_id_label_Style": {
+    "x": "70",
+    "y": "190",
+    "content": "输入缺陷类别",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "content_color": "#000000"
+  },
+
+  "Category_id_TextEdit_Style": {
+    "x": "70",
+    "y": "220",
+    "width": "150",
+    "height": "222",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QTextEdit": {
+      "background-color": "#FFFFFF",
+      "border-top-left-radius": "6px",
+      "border-top-right-radius": "6px",
+      "border-bottom-left-radius": "6px",
+      "border-bottom-right-radius": "6px"
+    }
+  },
+
+  "Start_Button_Style": {
+    "x": "70",
+    "y": "460",
+    "width": "50",
+    "height": "30",
+    "QPushButton": {
+      "background-image": "./images/button_start.png",
+      "background_position": "center",
+      "background_repeat": "no_repeat",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    },
+    "QPushButton_hover": {
+      "background-image": "./images/button_start_press.png"
+    },
+    "QPushButton_pressed": {
+      "background-image": "./images/button_start_press.png"
+    }
+  },
+
+  "Run_Log_Style": {
+    "x": "630",
+    "y": "370",
+    "width": "250",
+    "height": "350",
+    "content_format": "Microsoft YaHei",
+    "content_size": "10",
+    "QTextBrowser": {
+      "background-color": "transparent",
+      "border-top-left-radius": "10px",
+      "border-top-right-radius": "10px",
+      "border-bottom-left-radius": "10px",
+      "border-bottom-right-radius": "10px"
+    }
+  }
+}
